@@ -1,0 +1,167 @@
+---
+- taxonomy: 环境安装
+  icon: fa-star
+  list:
+    - term: 常用工具
+      links: 
+        - title: 【官方】Everything
+          url: https://www.voidtools.com/zh-cn/
+          description: Everything搜索工具官方下载
+        - title: 【官方】Xshell XFTP
+          url: https://www.xshell.com/zh/free-for-home-school/
+          description: Xshell+XFTP远程连接工具官方下载  
+
+    - term: ISO镜像
+      links: 
+        - title: 【官方】Kali-linux-2024.2
+          url: https://cdimage.kali.org/kali-2024.2/kali-linux-2024.2-installer-amd64.iso
+          logo: images/logos/Kali.png
+          description: Kali-linux-2024官方ISO镜像
+        - title: 【阿里云镜像】Centos 7
+          url: https://mirrors.aliyun.com/centos/7.9.2009/isos/x86_64/
+          description: CentOS-7-x86_64-DVD-2207-02.iso
+        - title: 【阿里云镜像】ubuntu-24.04
+          url: https://mirrors.aliyun.com/ubuntu-releases/24.04/
+          description: ubuntu-24.04-desktop-amd64.iso
+        - title: 【itellyou】Windows 10 商业版
+          url: ed2k://|file|zh-cn_windows_10_business_editions_version_22h2_updated_june_2024_x64_dvd_1139f6a3.iso|6942404608|F40A743548110202B4766BAC230CD9CF|/
+          logo: images/logos/Windows.png
+          description: Windows 10 (business editions), version 22H2(x64) zh-cn
+
+ 
+- taxonomy: 渗透测试工具
+  icon: fa-download
+  list: 
+    - term: 抓包工具
+      links:
+        - title: 【官方】Burpsuite Professional
+          url: https://portswigger.net/burp/releases#professional
+          description: Burpsuite pro，安全人员最常使用的一款安全工具
+        - title: 【官方】Wireshark抓包
+          url: https://www.wireshark.org/download.html
+          description: Wireshark官方下载
+        - title: 【官方】Yakit
+          url: https://yaklang.com/
+          description: 国产化的类似Burpsuite的综合工具
+        - title: 【官方】Fiddler
+          url: https://www.telerik.com/fiddler/fiddler-classic
+          description: fiddler-classic，一款免费抓包工具，仅支持Windows      
+
+    - term: 扫描工具
+      links:
+        - title: 【官方】Nmap端口扫描工具
+          url: https://nmap.org/download.html
+          description: nmap端口扫描官方下载
+        - title: 【官方】Sqlmap工具
+          url: https://sqlmap.org/
+          description: python环境下的一款开源检测和利用SQL注入的渗透测试工具
+        - title: 【官方】Nessus漏洞扫描工具
+          url: https://www.tenable.com/downloads/nessus?loginAttempted=true
+          description: Nessus漏洞扫描官方下载
+
+    - term: 爆破工具
+      links:
+        - title: 【官网】Hashcat 密码爆破工具
+          url: https://hashcat.net/hashcat/#download/
+          description: hashcat密码爆破工具官网下载
+
+
+- taxonomy: 移动安全工具
+  icon: fa-mobile-alt
+  list: 
+    - term: Hook工具
+      links:
+        - title: Xposed
+          url: https://github.com/rovo89/Xposed
+          description: Xposed 框架是一款可以在不修改APK的情况下修改系统程序的框架服务，基于它可以制作出许多功能强大的模块，且在功能不冲突的情况下同时运行。
+        - title: JustTrustMe
+          url: https://github.com/Fuzion24/JustTrustMe
+          description: 基于Xposed写的可以绕过SSL Pinning检测的工具。
+        - title: Frida
+          url: https://github.com/frida/frida
+          description: Frida 是一种动态插桩工具，可以插入一些代码到原生app的内存空间去，动态地监视和修改其行为，可对内存空间里的对象方法实现监视、修改甚至替换。
+
+    - term: APP反编译工具
+      links:
+        - title: Apktool
+          url: https://apktool.org/
+          description: Apktool 是一款功能强大且操作简单的apk反编译工具。
+        - title: dex2jar
+          url: https://github.com/pxb1988/dex2jar
+          description: 将安卓可执行文件dex转为jar包的工具。
+        - title: AndroidKiller
+          url: https://github.com/liaojack8/AndroidKiller
+          description: 一款Android 应用程序逆向工具(apk反编译工具)。
+
+
+- taxonomy: 蓝队常用工具
+  icon: fa-user-shield
+  list:
+    - term: 研判常用工具
+      links:
+        - title: VirusTotal云沙箱
+          url: https://www.virustotal.com/gui/home/upload
+          description: virustotal云沙箱
+        - title: 奇安信云沙箱
+          url: https://sandbox.ti.qianxin.com/sandbox/page
+          description: 奇安信情报沙箱
+        - title: 微步在线云沙箱
+          url: https://s.threatbook.com/
+          description: 微步在线云沙箱
+        - title: ANY.RUN 云沙箱
+          url: https://app.any.run/
+          description: ANY.RUN 云沙箱
+
+    - term: 各产商威胁情报中心
+      links:
+        - title: 微步在线X情报社区
+          url: https://x.threatbook.com/
+          description: 微步在线，威胁分析与情报共享社区
+        - title: 奇安信威胁情报中心
+          url: https://ti.qianxin.com/
+          description: 奇安信威胁情报中心
+        - title: 启明星辰威胁情报中心
+          url: https://venuseye.com.cn/
+          description: 启明星辰威胁情报中心
+        - title: 安恒星图平台
+          url: https://ti.dbappsecurity.com.cn/
+          description: 安恒威胁情报中心
+        - title: 绿盟威胁情报中心
+          url: https://ti.nsfocus.com/
+          description: 绿盟威胁情报中心
+        - title: 知道创宇漏洞平台
+          url: https://www.seebug.org/
+          description: 知道创宇漏洞平台
+        - title: 阿里云漏洞库
+          url: https://avd.aliyun.com/
+          description: 阿里云漏洞库
+
+    - term: 溯源常用工具
+      links:
+        - title: IP地址定位
+          url: https://cip.cc/
+          description: IP地址定位物理地址
+        - title: IP地址定位
+          url: https://www.chaipip.com/ip.php
+          description: IP地址定位地图地址
+        - title: IP地址反查
+          url: https://site.ip138.com/
+          description: IP地址反查域名
+        - title: 网站ICP备案查询
+          url: https://www.icpapi.com/
+          description: 可根据ICP、域名或单位名称查询所属资产
+    
+
+- taxonomy: CTF常用工具
+  icon: fa-solid fa-flag
+  list:
+    - term: Msic工具
+      links:
+        - title: CTF在线编码工具
+          url: http://www.hiencode.com/
+          description: CTF在线编码工具  
+
+
+
+      
+---
