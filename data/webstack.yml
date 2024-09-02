@@ -39,13 +39,16 @@
           description: Burpsuite pro，安全人员最常使用的一款安全工具
         - title: 【官方】Wireshark抓包
           url: https://www.wireshark.org/download.html
-          description: Wireshark官方下载
+          description: Wireshark网络流量抓包工具
+         - title: 【官方】Proxifier代理抓包
+          url: https://www.proxifier.com/
+          description: Proxifier是一款代理客户端软件,可以让不支持代理服务器工作的程序变的可行的代理客户端软件。         
         - title: 【官方】Yakit
           url: https://yaklang.com/
           description: 国产化的类似Burpsuite的综合工具
         - title: 【官方】Fiddler
           url: https://www.telerik.com/fiddler/fiddler-classic
-          description: fiddler-classic，一款免费抓包工具，仅支持Windows      
+          description: fiddler-classic，一款免费抓包工具，仅支持Windows    
 
     - term: 扫描工具
       links:
@@ -64,6 +67,15 @@
         - title: 【官网】Hashcat 密码爆破工具
           url: https://hashcat.net/hashcat/#download/
           description: hashcat密码爆破工具官网下载
+    
+    - term: 内网渗透工具
+      links:
+        - title: 【官网】nps 内网穿透工具
+          url: https://github.com/ehang-io/nps
+          description: nps是一款轻量级、高性能、功能强大的跨平台的内网穿透代理工具。
+        - title: 【官方】masscan内网端口扫描工具
+          url: https://github.com/robertdavidgraham/masscan
+          description: masscan是一个开源跨平台的极快的端口扫描工具，它可以调整发包速率，扫描主机全端口仅需要不到一分钟。masscan仅能扫描端口，建议在内网中使用。
 
 
 - taxonomy: 移动安全工具
@@ -129,6 +141,9 @@
         - title: 绿盟威胁情报中心
           url: https://ti.nsfocus.com/
           description: 绿盟威胁情报中心
+        - title: 深信服威胁情报中心
+          url: https://ti.sangfor.com.cn/analysis-platform
+          description: 深信服威胁情报中心
         - title: 知道创宇漏洞平台
           url: https://www.seebug.org/
           description: 知道创宇漏洞平台
