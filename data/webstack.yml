@@ -40,7 +40,7 @@
         - title: 【官方】Wireshark抓包
           url: https://www.wireshark.org/download.html
           description: Wireshark网络流量抓包工具
-         - title: 【官方】Proxifier代理抓包
+        - title: 【官方】Proxifier代理抓包
           url: https://www.proxifier.com/
           description: Proxifier是一款代理客户端软件,可以让不支持代理服务器工作的程序变的可行的代理客户端软件。         
         - title: 【官方】Yakit
