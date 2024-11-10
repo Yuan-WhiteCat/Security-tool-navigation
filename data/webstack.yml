@@ -1,4 +1,5 @@
----
+  +
+   ---
 - taxonomy: 环境安装
   icon: fa-star
   list:
@@ -81,6 +82,18 @@
 - taxonomy: 移动安全工具
   icon: fa-mobile-alt
   list: 
+    - term: APP代理抓包工具
+      links:
+        - title: Drony
+          url: https://play.google.com/store/apps/details?id=org.sandrob.drony
+          description: Drony 是一个允许您从移动设备管理所有代理的工具。
+        - title: Reqable
+          url: https://reqable.com/
+          description: 小黄鸟作者另一力作，新一代API调试 + API测试一站化国产解决方案，全平台支持HTTP1、HTTP2和HTTP3(QUIC)，先进技术赋能API生产。
+        - title: r0capture
+          url: https://github.com/r0ysue/r0capture
+          description: 安卓应用层抓包通杀脚本。 
+
     - term: Hook工具
       links:
         - title: Xposed
@@ -101,9 +114,21 @@
         - title: dex2jar
           url: https://github.com/pxb1988/dex2jar
           description: 将安卓可执行文件dex转为jar包的工具。
+        - title: JD-GUI
+          url: https://github.com/java-decompiler/jd-gui
+          description: 可将安卓可执行文件dex转为jar包，并提供可视化代码阅读能力。
         - title: AndroidKiller
           url: https://github.com/liaojack8/AndroidKiller
           description: 一款Android 应用程序逆向工具(apk反编译工具)。
+
+    - term: APP渗透手机环境工具
+      links:
+        - title: Magisk
+          url: https://github.com/topjohnwu/Magisk
+          description: Magisk是一套用于定制Android的开源工具，支持高于Android4.2的设备。涵盖了Android定制的基本部分:root、引导脚本、SELInux修补、移除AVB2.0/dm- verity/强制加密等。
+        - title: MT 管理器
+          url: https://mt2.cn/
+          description: Android 平台文件管理 & 逆向修改神器。         
 
 
 - taxonomy: 蓝队常用工具
