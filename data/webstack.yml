@@ -127,7 +127,13 @@
           description: Magisk是一套用于定制Android的开源工具，支持高于Android4.2的设备。涵盖了Android定制的基本部分:root、引导脚本、SELInux修补、移除AVB2.0/dm- verity/强制加密等。
         - title: MT 管理器
           url: https://mt2.cn/
-          description: Android 平台文件管理 & 逆向修改神器。         
+          description: Android 平台文件管理 & 逆向修改神器。
+        - title: TrollInstallerX（巨魔商店安装器）
+          url: https://github.com/alfiecg24/TrollInstallerX
+          description: TrollInstallerX是一个通用的TrollStore安装程序，支持所有运行iOS 14.0 - 16.6.1的设备。
+        - title: IOS逆向助手（沐阳大佬原下载地址，提取码:FrtC）
+          url: https://www.123pan.com/s/Y3EETd-ZpOTd
+          description: IOS逆向助手支持越狱和未越狱设备，需要配合巨魔商店安装，支持hook使用MD5,SHA1,hmac,AES,DES,RSA等等加密算法，功能强大到无法想象！          
 
 
 - taxonomy: 蓝队常用工具
