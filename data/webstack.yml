@@ -131,9 +131,9 @@
         - title: TrollInstallerX（巨魔商店安装器）
           url: https://github.com/alfiecg24/TrollInstallerX
           description: TrollInstallerX是一个通用的TrollStore安装程序，支持所有运行iOS 14.0 - 16.6.1的设备。
-        - title: IOS逆向助手（沐阳大佬原下载地址，提取码:FrtC）
-          url: https://www.123pan.com/s/Y3EETd-ZpOTd
-          description: IOS逆向助手支持越狱和未越狱设备，需要配合巨魔商店安装，支持hook使用MD5,SHA1,hmac,AES,DES,RSA等等加密算法，功能强大到无法想象！          
+        - title: Dopamine（多巴胺官网，需科学下载）
+          url: https://ellekit.space/dopamine/
+          description: Dopamine（多巴胺）越狱工具由巨魔商店TrollStore的作者opa334联合ellekit开发，支持iOS 15.0 – 16.6.1系统，A8 – A16设备，包括 M1/M2 iPad系列机型的无根越狱。      
 
 
 - taxonomy: 蓝队常用工具
