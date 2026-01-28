@@ -32,6 +32,27 @@
 - taxonomy: 渗透测试工具
   icon: fa-download
   list: 
+    - term: 资产测绘平台
+      links:
+        - title: Fofa
+          url: https://fofa.info/
+          description: Fofa 网络空间测绘平台
+        - title: Hunter 鹰图平台
+          url: https://hunter.qianxin.com/
+          description: 奇安信鹰图平台
+        - title: ZoomEye 钟馗之眼
+          url: https://www.zoomeye.org/
+          description: 知道创宇网络空间雷达
+        - title: 360Quake
+          url: https://quake.360.net/quake/#/index
+          description: 360网络空间资产测绘
+        - title: shodan
+          url: https://www.shodan.io/
+          description: 国外资产测绘平台
+        - title: Censys
+          url: https://search.censys.io/
+          description: IP、端口、域名、banner信息查询
+
     - term: 抓包工具
       links:
         - title: 【官方】Burpsuite Professional
@@ -42,13 +63,13 @@
           description: Wireshark网络流量抓包工具
         - title: 【官方】Proxifier代理抓包
           url: https://www.proxifier.com/
-          description: Proxifier是一款代理客户端软件,可以让不支持代理服务器工作的程序变的可行的代理客户端软件。         
+          description: Proxifier是一款代理客户端软件,可以让不支持代理服务器工作的程序变的可行的代理客户端软件。
         - title: 【官方】Yakit
           url: https://yaklang.com/
           description: 国产化的类似Burpsuite的综合工具
         - title: 【官方】Fiddler
           url: https://www.telerik.com/fiddler/fiddler-classic
-          description: fiddler-classic，一款免费抓包工具，仅支持Windows    
+          description: fiddler-classic，一款免费抓包工具，仅支持Windows
 
     - term: 扫描工具
       links:
@@ -207,7 +228,26 @@
       links:
         - title: CTF在线编码工具
           url: http://www.hiencode.com/
-          description: CTF在线编码工具  
+          description: CTF在线编码工具
+
+    - term: CTF题目练习平台
+      links:
+        - title: 攻防世界-XCTF
+          url: https://adworld.xctf.org.cn/home/index
+          description: CTF题库
+        - title: BUUCTF
+          url: https://buuoj.cn/
+          description: 免费题库，需注册登录
+        - title: bugku CTF
+          url: https://ctf.bugku.com/
+          description: CTF平台
+        - title: CTFHub
+          url: https://www.ctfhub.com/
+          description: CTFhub技能树
+        - title: ctfshow
+          url: https://ctf.show/
+          description: 部分题库需要付费
+
 
 
 
